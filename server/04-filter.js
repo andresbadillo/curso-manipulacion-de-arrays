@@ -63,3 +63,10 @@ const search = (query) => {
 }
 console.log(search('Ni'));
 console.log(search('Va'));
+
+// Reto clase 9
+
+const words2 = ['amor', 'sol', 'piedra', 'día'];
+const wordLenght = words2.filter(item => item.length >= 4);
+console.log('Words:', words2);
+console.log('Words Lenght:', wordLenght);
